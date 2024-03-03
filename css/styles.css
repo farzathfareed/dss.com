@@ -1,0 +1,199 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #343a40;
+}
+
+/* title section */
+.container-fluid {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 54%, rgba(20,71,121,1) 100%);
+
+}
+
+#title h1 {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: #ffffff;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+
+}
+
+.modal-content h4 {
+  text-align: center;
+}
+
+.modal-content p {
+  text-align: center;
+  margin: 0 30px 30px;
+}
+
+.modal-content p a {
+  color: #343a40;
+}
+
+.profile-pic {
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  border: 1px solid #85F4FF;
+
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.navbar {
+  padding: 0 0 4.5rem;
+
+}
+
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: bold;
+
+
+}
+
+
+.container-fluid{
+  padding: 3% 10% 0;
+}
+
+.title-image {
+  width: 80%;
+  margin-left: 50px;
+
+}
+
+.title-button {
+  margin: 5% 3% 5% 0;
+  background: #ffbc00;
+  color: #020024;
+
+}
+
+.title-button:hover {
+  background-color:#ffffff;
+  color: #020024;
+  /* transition: 0.7s; */
+}
+
+
+/* Service Section */
+
+#services {
+  padding: 3% 10%;
+  text-align: center;
+}
+
+.service-image {
+  width: 100%;
+  margin: 30px 0 10px;
+}
+
+
+/* about section */
+
+#about {
+  padding: 3% 10%;
+  text-align: center;
+  background: #EFF8FF;
+}
+
+.about-image {
+  width: 50%;
+  margin: 30px 0 10px;
+}
+
+
+/* Fiverr section */
+
+#fiverr {
+  padding: 3% 10%;
+  text-align: center;
+}
+
+.fiverr-section {
+  margin: 30px 0 10px;
+}
+
+.fiverr-sectionfavicon {
+  margin-bottom: 10px;
+  color: #28a745;
+}
+
+/* Contact Section */
+
+#contact {
+  padding: 3% 10%;
+  text-align: center;
+}
+
+.contact-sec {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.social-media {
+  margin: 10px;
+  font-size: 1.2rem;
+  color: #343a40;
+}
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .modal-content {
+    width: 80%; /* Could be more or less, depending on screen size */
+
+  }
+
+  .profile-pic {
+    width: 30%;
+
+  }
